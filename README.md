@@ -32,6 +32,12 @@ Neste projeto pude desenvolver algumas habilidades como:
 * ES6 modules (importações e exportações)
 * Lógica de programação
 
+Neste projeto desenvolvi algumas ferramentas que melhoram a experiência do usuário. Alguns exemplos:
+
+* Existe uma mensagem de erro quando os dados inseridos não são válidos
+* Essa mensagem de erro some quando o usuário digita dados nos campos
+* O modal pode ser fechado tanto pelo botão (X) como pelo teclado usando a tecla Esc
+
 Sinta-se livre para me mandar uma mensagem caso perceba algum ponto onde posso melhorar! 
 
 ### Construído com
