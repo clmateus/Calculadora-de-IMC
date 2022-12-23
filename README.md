@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/clmateus/Calculadora-de-IMC">
-    <img src="./assets/logo.jpg" alt="Logo" height=40 width=40/>
+    <img src="./assets/logo.jpg" alt="Logo" height=200 width=200/>
   </a>
 
   <h3 align="center">Calculadora de IMC</h3>
