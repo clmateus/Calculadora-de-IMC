@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="./script.js" defer></script>
+    <script src="./js/script.js" defer type="module"></script>
   </head>
   <body>
     <div class="alert-error">
@@ -23,7 +23,7 @@
           <legend class="title">Cálculo de IMC</legend>
           <label for="weightInput">Peso (kg)</label>
           <input type="number" placeholder="60" id="weightInput"/>
-          <label for="heightInput">Altura (m)</label>
+          <label for="heightInput">Altura (cm)</label>
           <input type="number" placeholder="165" id="heightInput">
           <button id="submitButton">Calcular IMC <img src="./assets/arrow.svg" alt="imagem de seta apontando para a direita"></button>
         </form>
@@ -31,8 +31,12 @@
     </div>
     <div class="modal-wrapper">
       <div class="modal card">
-        <button class="close"><img src="./assets/close.svg" alt="ícone em formato de xis"></button>
-        <h2 class="title">Seu IMC é de 28</h1>
+        <h2 class="title">
+          <button class="close">
+            <img src="./assets/close.svg" alt="ícone em formato de xis">
+          </button>
+          <span></span>
+        </h2>
       </div>
     </div>
   </body>
